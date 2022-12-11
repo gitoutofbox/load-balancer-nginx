@@ -1,0 +1,21 @@
+2022/12/11 12:19:37 [emerg] 11936#1496: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2022/12/11 12:22:20 [emerg] 15316#6692: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2022/12/11 12:22:31 [emerg] 14928#14024: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2022/12/11 12:24:17 [emerg] 16220#3304: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2022/12/11 12:24:33 [emerg] 8172#16228: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2022/12/11 12:25:43 [error] 2028#15676: *1 CreateFile() "C:\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/11 12:32:46 [emerg] 15268#15104: invalid parameter "4001" in C:\nginx-1.22.1/conf/nginx.conf:35
+2022/12/11 12:33:08 [emerg] 12600#15860: unexpected "}" in C:\nginx-1.22.1/conf/nginx.conf:37
+2022/12/11 12:33:39 [emerg] 15728#240: unexpected "}" in C:\nginx-1.22.1/conf/nginx.conf:37
+2022/12/11 12:33:58 [emerg] 15936#15276: invalid parameter "4001" in C:\nginx-1.22.1/conf/nginx.conf:35
+2022/12/11 12:34:08 [emerg] 6812#256: unexpected "}" in C:\nginx-1.22.1/conf/nginx.conf:37
+2022/12/11 12:37:52 [emerg] 3448#11892: unexpected "}" in C:\nginx-1.22.1/conf/nginx.conf:51
+2022/12/11 12:38:05 [emerg] 5792#6488: unknown directive "proxy_pass:" in C:\nginx-1.22.1/conf/nginx.conf:49
+2022/12/11 12:38:44 [emerg] 5896#6176: host not found in upstream "my-server" in C:\nginx-1.22.1/conf/nginx.conf:49
+2022/12/11 12:46:49 [error] 2028#15676: *10 CreateFile() "C:\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/11 12:48:51 [emerg] 12572#8740: upstream "my-server" may not have port 3000 in C:\nginx-1.22.1/conf/nginx.conf:49
+2022/12/11 12:49:42 [notice] 2032#6692: signal process started
+2022/12/11 12:49:42 [error] 2032#6692: OpenEvent("Global\ngx_quit_13204") failed (2: The system cannot find the file specified)
+2022/12/11 12:52:56 [emerg] 8244#15368: host not found in upstream "my-server" in C:\nginx-1.22.1/conf/nginx.conf:49
+2022/12/11 13:15:33 [emerg] 14128#15308: unknown directive "pjtoxy_set_header" in D:\Dev\load-balancing\nginx-1.22.1/conf/nginx.conf:51
+2022/12/11 13:15:37 [emerg] 13272#10516: unknown directive "pjtoxy_set_header" in D:\Dev\load-balancing\nginx-1.22.1/conf/nginx.conf:51
